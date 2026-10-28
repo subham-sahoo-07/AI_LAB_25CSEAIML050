@@ -1,0 +1,30 @@
+=======================================================
+EXPERIMENT 2: Depth First Search (DFS)
+File: DFS.PY
+=======================================================
+
+--- [Sample Input] ---
+How many edges does your graph have? 5
+Edge 1: A B
+Edge 2: A C
+Edge 3: B D
+Edge 4: B E
+Edge 5: C F
+Enter the starting node for dFS: A
+
+--- [Execution Output] ---
+___ Build your graph ___
+How many edges does your graph have? 
+Enter each edge separated by a space (e.g., A B)
+Edge 1: Edge 2: Edge 3: Edge 4: Edge 5: Enter the starting node for dFS: 
+Your graph dictionary: {'A': ['B', 'C'], 'B': ['A', 'D', 'E'], 'C': ['A', 'F'], 'D': ['B'], 'E': ['B'], 'F': ['C']}
+
+Starting dFS traversal...
+Exploring node: A
+Exploring node: C
+Exploring node: F
+Exploring node: B
+Exploring node: E
+Exploring node: D
+
+dFS Traversal Result: ['A', 'C', 'F', 'B', 'E', 'D']

@@ -13,20 +13,21 @@
 
 ## 📋 Table of Experiments
 
-| Exp # | Experiment Title | Source File | Description | Execution Status |
-| :---: | :--- | :--- | :--- | :---: |
-| **1** | [Breadth First Search (BFS)](#experiment-1---breadth-first-search-bfs) | [`BFS.py`](./BFS.py) | Uninformed graph traversal exploring nodes layer by layer using a FIFO queue | ✅ Completed |
-| **2** | [Depth First Search (DFS)](#experiment-2---depth-first-search-dfs) | [`DFS.PY`](./DFS.PY) | Uninformed graph traversal exploring nodes branch by branch using a LIFO stack | ✅ Completed |
-| **3** | [Hill Climbing Algorithm](#experiment-3---hill-climbing-algorithm) | [`hillalg.py`](./hillalg.py) | Local search heuristic optimization algorithm to maximize an objective function | ✅ Completed |
-| **4** | [A* Search Algorithm](#experiment-4---a-search-algorithm) | [`a_star.py`](./a_star.py) | Informed best-first search algorithm combining actual path cost and heuristic function $f(n) = g(n) + h(n)$ | ✅ Completed |
-| **5** | [Min-Max Algorithm](#experiment-5---min-max-algorithm) | [`min_maxalg.py`](./min_maxalg.py) | Decision-making algorithm for two-player zero-sum games | ✅ Completed |
-| **6** | [Alpha-Beta Pruning](#experiment-6---alpha-beta-pruning) | [`alpha_bita.py`](./alpha_bita.py) | Optimized Min-Max search pruning non-influencing subtrees via $\alpha$ and $\beta$ cut-offs | ✅ Completed |
-| **7** | [8-Queens Problem](#experiment-7---8-queens-problem) | [`eight_queen.py`](./eight_queen.py) | Backtracking constraint satisfaction algorithm placing 8 non-attacking queens on a chessboard | ✅ Completed |
-| **8** | [Water Jug Problem](#experiment-8---water-jug-problem) | [`water_jug.py`](./water_jug.py) | State-space BFS search finding shortest sequence of steps to measure a target amount of water | ✅ Completed |
-| **9** | [Tic-Tac-Toe Game](#experiment-9---tic-tac-toe-game) | [`tic_tac_toe.py`](./tic_tac_toe.py) | Interactive two-player grid board game checking rows, columns, and diagonals for win or draw | ✅ Completed |
-| **10** | [Travelling Salesman Problem (TSP)](#experiment-10---travelling-salesman-problem-tsp) | [`Travel_space.py`](./Travel_space.py) / [`permutations.py`](./permutations.py) | State-space exploration solving TSP by evaluating all permutations of city tours for minimum travel cost | ✅ Completed |
-| **Bonus 1** | [Uniform Cost Search (UCS) & Depth Limited Search (DLS)](#bonus-experiment-1---ucs-and-dls) | [`ucs_Dls.py`](./ucs_Dls.py) | Priority queue-based cost-optimal search (UCS) alongside depth-bounded DFS traversal (DLS) | ✅ Completed |
-| **Bonus 2** | [Block World Problem](#bonus-experiment-2---block-world-problem) | [`bwp.py`](./bwp.py) / [`code_1.py`](./code_1.py) | Classical AI planning problem using BFS to reconfigure block stacks from an initial state to a goal state | ✅ Completed |
+| Exp # | Experiment Title | Source File | Output Log | Description | Execution Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| **1** | [Breadth First Search (BFS)](#experiment-1---breadth-first-search-bfs) | [`BFS.py`](./BFS.py) | [📄 View Output](./outputs/exp1_bfs.txt) | Uninformed graph traversal exploring nodes layer by layer using a FIFO queue | ✅ Completed |
+| **2** | [Depth First Search (DFS)](#experiment-2---depth-first-search-dfs) | [`DFS.PY`](./DFS.PY) | [📄 View Output](./outputs/exp2_dfs.txt) | Uninformed graph traversal exploring nodes branch by branch using a LIFO stack | ✅ Completed |
+| **3** | [Hill Climbing Algorithm](#experiment-3---hill-climbing-algorithm) | [`hillalg.py`](./hillalg.py) | [📄 View Output](./outputs/exp3_hill_climbing.txt) | Local search heuristic optimization algorithm to maximize an objective function | ✅ Completed |
+| **4** | [A* Search Algorithm](#experiment-4---a-search-algorithm) | [`a_star.py`](./a_star.py) | [📄 View Output](./outputs/exp4_astar.txt) | Informed best-first search algorithm combining actual path cost and heuristic function $f(n) = g(n) + h(n)$ | ✅ Completed |
+| **5** | [Min-Max Algorithm](#experiment-5---min-max-algorithm) | [`min_maxalg.py`](./min_maxalg.py) | [📄 View Output](./outputs/exp5_minimax.txt) | Decision-making algorithm for two-player zero-sum games | ✅ Completed |
+| **6** | [Alpha-Beta Pruning](#experiment-6---alpha-beta-pruning) | [`alpha_bita.py`](./alpha_bita.py) | [📄 View Output](./outputs/exp6_alpha_beta.txt) | Optimized Min-Max search pruning non-influencing subtrees via $\alpha$ and $\beta$ cut-offs | ✅ Completed |
+| **7** | [8-Queens Problem](#experiment-7---8-queens-problem) | [`eight_queen.py`](./eight_queen.py) | [📄 View Output](./outputs/exp7_8queens.txt) | Backtracking constraint satisfaction algorithm placing 8 non-attacking queens on a chessboard | ✅ Completed |
+| **8** | [Water Jug Problem](#experiment-8---water-jug-problem) | [`water_jug.py`](./water_jug.py) | [📄 View Output](./outputs/exp8_water_jug.txt) | State-space BFS search finding shortest sequence of steps to measure a target amount of water | ✅ Completed |
+| **9** | [Tic-Tac-Toe Game](#experiment-9---tic-tac-toe-game) | [`tic_tac_toe.py`](./tic_tac_toe.py) | [📄 View Output](./outputs/exp9_tic_tac_toe.txt) | Interactive two-player grid board game checking rows, columns, and diagonals for win or draw | ✅ Completed |
+| **10** | [Travelling Salesman Problem (TSP)](#experiment-10---travelling-salesman-problem-tsp) | [`Travel_space.py`](./Travel_space.py) / [`permutations.py`](./permutations.py) | [📄 View Output](./outputs/exp10_tsp.txt) | State-space exploration solving TSP by evaluating all permutations of city tours for minimum travel cost | ✅ Completed |
+| **Bonus 1** | [Uniform Cost Search (UCS) & Depth Limited Search (DLS)](#bonus-experiment-1---ucs-and-dls) | [`ucs_Dls.py`](./ucs_Dls.py) | [📄 View Output](./outputs/bonus1_ucs_dls.txt) | Priority queue-based cost-optimal search (UCS) alongside depth-bounded DFS traversal (DLS) | ✅ Completed |
+| **Bonus 2** | [Block World Problem](#bonus-experiment-2---block-world-problem) | [`bwp.py`](./bwp.py) / [`code_1.py`](./code_1.py) | [📄 View Output](./outputs/bonus2_block_world.txt) | Classical AI planning problem using BFS to reconfigure block stacks from an initial state to a goal state | ✅ Completed |
+
 
 ---
 

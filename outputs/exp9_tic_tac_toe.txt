@@ -1,0 +1,61 @@
+=======================================================
+EXPERIMENT 9: Tic-Tac-Toe Game
+File: tic_tac_toe.py
+=======================================================
+
+--- [Sample Moves] ---
+Player X: (0, 0)
+Player O: (1, 0)
+Player X: (0, 1)
+Player O: (1, 1)
+Player X: (0, 2) [Winning move across row 0]
+
+--- [Execution Output] ---
+Player X's turn:
+  |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): 
+Player O's turn:
+X |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): 
+Player X's turn:
+X |   |  
+---------
+O |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): 
+Player O's turn:
+X | X |  
+---------
+O |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): 
+Player X's turn:
+X | X |  
+---------
+O | O |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): 
+X | X | X
+---------
+O | O |  
+---------
+  |   |  
+---------
+
+Player X wins!

@@ -1,0 +1,19 @@
+=======================================================
+EXPERIMENT 7: 8-Queens Problem
+File: eight_queen.py
+Method: Recursive Backtracking
+=======================================================
+
+--- [Sample Input] ---
+(None - Solves placing 8 queens on an 8x8 chessboard)
+
+--- [Execution Output] ---
+Solution found:
+Q . . . . . . .
+. . . . Q . . .
+. . . . . . . Q
+. . . . . Q . .
+. . Q . . . . .
+. . . . . . Q .
+. Q . . . . . .
+. . . Q . . . .

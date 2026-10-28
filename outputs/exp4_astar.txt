@@ -1,0 +1,35 @@
+=======================================================
+EXPERIMENT 4: A* Search Algorithm
+File: a_star.py
+Evaluation Function: f(n) = g(n) + h(n)
+=======================================================
+
+--- [Sample Input] ---
+Enter total no. of nodes: 4
+Node name: A -> Heuristic h(A): 4
+Node name: B -> Heuristic h(B): 2
+Node name: C -> Heuristic h(C): 2
+Node name: D -> Heuristic h(D): 0
+Enter total no. of directed edges: 4
+Edges 1: A B 1
+Edges 2: A C 2
+Edges 3: B D 3
+Edges 4: C D 1
+Enter the start node: A
+Enter the goal node: D
+
+--- [Execution Output] ---
+___A* Algorithm input setup___
+
+Enter total no. of nodes: 
+Enter heuristic value h(n) for each node:
+Node name: Heuristic h(A): Node name: Heuristic h(B): Node name: Heuristic h(C): Node name: Heuristic h(D): 
+Enter total no. of directed edges: 
+Enter edges in format (from_node to_node weight)
+Edges 1: Edges 2: Edges 3: Edges 4: 
+___Path finding___
+Enter the start node: Enter the goal node: 
+___Result___
+
+Path found from A to D: A -> C -> D
+Total cost: 3.0

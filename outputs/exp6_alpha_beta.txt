@@ -1,0 +1,11 @@
+=======================================================
+EXPERIMENT 6: Alpha-Beta Pruning
+File: alpha_bita.py
+=======================================================
+
+--- [Sample Input] ---
+Enter the values of leaf nodes separated by space: 3 5 6 9 1 2 0 -1
+
+--- [Execution Output] ---
+Enter the values of leaf nodes separated by space: 
+The optimal value is: 5

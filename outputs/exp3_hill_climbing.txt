@@ -1,0 +1,16 @@
+=======================================================
+EXPERIMENT 3: Hill Climbing Algorithm
+File: hillalg.py
+Objective Function: f(x) = -(x^2) + 10
+=======================================================
+
+--- [Sample Input] ---
+Enter the starting value: 2.0
+Enter the step size: 0.1
+Enter the maximum iterations: 50
+
+--- [Execution Output] ---
+Enter the starting value: Enter the step size: Enter the maximum iterations: 
+
+Best Position = -6.38378239159465e-16
+Maximum Value = 10.0

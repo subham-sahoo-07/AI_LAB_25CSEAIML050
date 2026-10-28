@@ -1,0 +1,16 @@
+=======================================================
+EXPERIMENT 8: Water Jug Problem
+File: water_jug.py
+Goal: Reach target state (4, 2) from (0, 0) with jugs of 4L & 3L
+=======================================================
+
+--- [Sample Input] ---
+(None - Solves using BFS state exploration)
+
+--- [Execution Output] ---
+Steps to reach target state (4, 2):
+(0, 0)
+(0, 3)
+(3, 0)
+(3, 3)
+(4, 2)
