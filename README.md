@@ -24,9 +24,7 @@
 | **7** | [8-Queens Problem](#experiment-7---8-queens-problem) | [`eight_queen.py`](./eight_queen.py) | [📄 View Output](./outputs/exp7_8queens.txt) | Backtracking constraint satisfaction algorithm placing 8 non-attacking queens on a chessboard | ✅ Completed |
 | **8** | [Water Jug Problem](#experiment-8---water-jug-problem) | [`water_jug.py`](./water_jug.py) | [📄 View Output](./outputs/exp8_water_jug.txt) | State-space BFS search finding shortest sequence of steps to measure a target amount of water | ✅ Completed |
 | **9** | [Tic-Tac-Toe Game](#experiment-9---tic-tac-toe-game) | [`tic_tac_toe.py`](./tic_tac_toe.py) | [📄 View Output](./outputs/exp9_tic_tac_toe.txt) | Interactive two-player grid board game checking rows, columns, and diagonals for win or draw | ✅ Completed |
-| **10** | [Travelling Salesman Problem (TSP)](#experiment-10---travelling-salesman-problem-tsp) | [`Travel_space.py`](./Travel_space.py) / [`permutations.py`](./permutations.py) | [📄 View Output](./outputs/exp10_tsp.txt) | State-space exploration solving TSP by evaluating all permutations of city tours for minimum travel cost | ✅ Completed |
-| **Bonus 1** | [Uniform Cost Search (UCS) & Depth Limited Search (DLS)](#bonus-experiment-1---ucs-and-dls) | [`ucs_Dls.py`](./ucs_Dls.py) | [📄 View Output](./outputs/bonus1_ucs_dls.txt) | Priority queue-based cost-optimal search (UCS) alongside depth-bounded DFS traversal (DLS) | ✅ Completed |
-| **Bonus 2** | [Block World Problem](#bonus-experiment-2---block-world-problem) | [`bwp.py`](./bwp.py) / [`code_1.py`](./code_1.py) | [📄 View Output](./outputs/bonus2_block_world.txt) | Classical AI planning problem using BFS to reconfigure block stacks from an initial state to a goal state | ✅ Completed |
+| **10** | [Travelling Salesman Problem (TSP)](#experiment-10---travelling-salesman-problem-tsp) | [`Travel_space.py`](./Travel_space.py) | [📄 View Output](./outputs/exp10_tsp.txt) | State-space exploration solving TSP by evaluating all permutations of city tours for minimum travel cost | ✅ Completed |
 
 
 ---
@@ -323,7 +321,7 @@
 ---
 
 ### Experiment 10 - Travelling Salesman Problem (TSP)
-- **File:** [`Travel_space.py`](./Travel_space.py) / [`permutations.py`](./permutations.py)
+- **File:** [`Travel_space.py`](./Travel_space.py)
 - **Concept:** Computes the shortest possible route that visits each city exactly once and returns to the origin city by evaluating tour permutations.
 - **Sample Input:**
   ```text
@@ -351,65 +349,6 @@
 
 ---
 
-### Bonus Experiment 1 - UCS and DLS
-- **File:** [`ucs_Dls.py`](./ucs_Dls.py)
-- **Concept:** Implements both Uniform Cost Search (priority queue based optimal path search with edge weights) and Depth Limited Search (depth-bounded DFS traversal).
-- **Sample Input:**
-  ```text
-  Number of nodes: 4
-  Number of edges: 4
-  Edges (u v cost):
-  0 1 2
-  0 2 5
-  1 3 4
-  2 3 1
-  Starting node: 0
-  Goal node: 3
-  Depth limit: 2
-  ```
-- **Execution Output:**
-  ```text
-  ===== DLS AND UCS =====
-  Enter number of nodes: 4
-  Enter number of edges: 4
-  Enter edges as: source destination cost
-  0 1 2
-  0 2 5
-  1 3 4
-  2 3 1
-  Enter starting node: 0
-  Enter goal node: 3
-  Enter depth limit: 2
-
-  ===== DLS RESULT =====
-  Goal Found!
-  Path: 0 -> 1 -> 3
-  Depth: 2
-
-  ===== UCS RESULT =====
-  Goal Found!
-  Optimal Path: 0 -> 1 -> 3
-  Minimum Cost: 6
-  ```
-
----
-
-### Bonus Experiment 2 - Block World Problem
-- **File:** [`bwp.py`](./bwp.py) / [`code_1.py`](./code_1.py)
-- **Concept:** Goal-state problem solver using Breadth-First Search to rearrange blocks on a table according to specified constraints.
-- **Execution Output:**
-  ```text
-  ===== Block World Problem (BFS) =====
-  Initial State: {('A', 'table'), ('C', 'table'), ('B', 'A')}
-  Goal State: {('C', 'table'), ('A', 'B'), ('B', 'C')}
-
-  Solution:
-  Step 1: Move B from A to C
-  Step 2: Move A from table to B
-  ```
-
----
-
 ## 🚀 How to Run the Experiments
 
 1. **Clone the repository:**
@@ -420,41 +359,35 @@
 
 2. **Execute any experiment:**
    ```bash
-   # Run BFS
+   # Run BFS (Experiment 1)
    python BFS.py
 
-   # Run DFS
+   # Run DFS (Experiment 2)
    python DFS.PY
 
-   # Run Hill Climbing
+   # Run Hill Climbing (Experiment 3)
    python hillalg.py
 
-   # Run A* Algorithm
+   # Run A* Algorithm (Experiment 4)
    python a_star.py
 
-   # Run Min-Max Algorithm
+   # Run Min-Max Algorithm (Experiment 5)
    python min_maxalg.py
 
-   # Run Alpha-Beta Pruning
+   # Run Alpha-Beta Pruning (Experiment 6)
    python alpha_bita.py
 
-   # Run 8-Queens Problem
+   # Run 8-Queens Problem (Experiment 7)
    python eight_queen.py
 
-   # Run Water Jug Problem
+   # Run Water Jug Problem (Experiment 8)
    python water_jug.py
 
-   # Run Tic-Tac-Toe Game
+   # Run Tic-Tac-Toe Game (Experiment 9)
    python tic_tac_toe.py
 
-   # Run Travelling Salesman Problem
+   # Run Travelling Salesman Problem (Experiment 10)
    python Travel_space.py
-
-   # Run UCS & DLS
-   python ucs_Dls.py
-
-   # Run Block World Problem
-   python bwp.py
    ```
 
 ---
