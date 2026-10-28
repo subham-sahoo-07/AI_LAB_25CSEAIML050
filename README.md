@@ -1,45 +1,45 @@
-# Artificial Intelligence (AI) Laboratory
+# AI Lab Experiments
 
-**Roll Number:** 25CSEAIML050  
-**Repository:** [https://github.com/subham-sahoo-07/AI_LAB_25CSEAIML050](https://github.com/subham-sahoo-07/AI_LAB_25CSEAIML050)
+## About
 
----
+This repository contains Python implementations and execution outputs for Artificial Intelligence Laboratory experiments covering:
 
-## 📋 Experiments
+- **Uninformed Search:** Breadth First Search (BFS), Depth First Search (DFS), Depth Limited Search (DLS), Uniform Cost Search (UCS)
+- **Informed & Local Search:** A* Search Algorithm, Hill Climbing Algorithm
+- **State-Space & Constraint Satisfaction:** Water Jug Problem, 8-Queens Problem, Traveling Salesman Problem (TSP)
+- **Planning & Game Playing:** Block World Problem, Tic-Tac-Toe, Minimax Algorithm, Alpha-Beta Pruning
 
-| Exp # | Experiment Title | Source Code | Output |
+All experiments include source code and verified terminal output logs.
+
+## List of Experiments
+
+| Exp No. | Experiment Name | Python Code | Output |
 | :---: | :--- | :---: | :---: |
-| **1** | Breadth First Search (BFS) | [`BFS.py`](./BFS.py) | [View Output](./outputs/exp1_bfs.txt) |
-| **2** | Depth First Search (DFS) | [`DFS.PY`](./DFS.PY) | [View Output](./outputs/exp2_dfs.txt) |
-| **3** | Hill Climbing Algorithm | [`hillalg.py`](./hillalg.py) | [View Output](./outputs/exp3_hill_climbing.txt) |
-| **4** | A* Search Algorithm | [`a_star.py`](./a_star.py) | [View Output](./outputs/exp4_astar.txt) |
-| **5** | Min-Max Algorithm | [`min_maxalg.py`](./min_maxalg.py) | [View Output](./outputs/exp5_minimax.txt) |
-| **6** | Alpha-Beta Pruning | [`alpha_bita.py`](./alpha_bita.py) | [View Output](./outputs/exp6_alpha_beta.txt) |
-| **7** | 8-Queens Problem | [`eight_queen.py`](./eight_queen.py) | [View Output](./outputs/exp7_8queens.txt) |
-| **8** | Water Jug Problem | [`water_jug.py`](./water_jug.py) | [View Output](./outputs/exp8_water_jug.txt) |
-| **9** | Tic-Tac-Toe Game | [`tic_tac_toe.py`](./tic_tac_toe.py) | [View Output](./outputs/exp9_tic_tac_toe.txt) |
-| **10** | Travelling Salesman Problem (TSP) | [`Travel_space.py`](./Travel_space.py) | [View Output](./outputs/exp10_tsp.txt) |
+| 1 | Breadth First Search (BFS) | [BFS.py](BFS.py) | [Output](outputs/01_BFS_output.txt) |
+| 2 | Depth First Search (DFS) | [DFS.py](DFS.py) | [Output](outputs/02_DFS_output.txt) |
+| 3 | Depth Limited Search (DLS) | [DLS.py](DLS.py) | [Output](outputs/03_DLS_output.txt) |
+| 4 | Uniform Cost Search (UCS) | [UCS.py](UCS.py) | [Output](outputs/04_UCS_output.txt) |
+| 5 | A* Search Algorithm | [A_Star_Search_Algorithm.py](A_Star_Search_Algorithm.py) | [Output](outputs/05_A_Star_Search_output.txt) |
+| 6 | Hill Climbing Algorithm | [Hill_Climbing_Algorithm.py](Hill_Climbing_Algorithm.py) | [Output](outputs/06_Hill_Climbing_output.txt) |
+| 7 | Water Jug Problem | [Water_Jug.py](Water_Jug.py) | [Output](outputs/07_Water_Jug_output.txt) |
+| 8 | 8-Queens Problem | [Eight_Queen.py](Eight_Queen.py) | [Output](outputs/08_Eight_Queen_output.txt) |
+| 9 | Traveling Salesman Problem (TSP) | [TSP.py](TSP.py) | [Output](outputs/09_TSP_output.txt) |
+| 10 | Tic-Tac-Toe Game | [Tic_Tac_Toe.py](Tic_Tac_Toe.py) | [Output](outputs/10_Tic_Tac_Toe_output.txt) |
+| 11 | Block World Problem | [Block_World.py](Block_World.py) | [Output](outputs/11_Block_World_output.txt) |
+| 12 | Minimax Algorithm | [Minimax_Algorithm.py](Minimax_Algorithm.py) | [Output](outputs/12_Minimax_output.txt) |
+| 13 | Alpha-Beta Pruning | [Alpha_Beta_Pruning.py](Alpha_Beta_Pruning.py) | [Output](outputs/13_Alpha_Beta_Pruning_output.txt) |
 
----
+## How to Run
 
-## 🚀 How to Run
+Clone the repository and run any experiment using Python 3:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/subham-sahoo-07/AI_LAB_25CSEAIML050.git
-   cd AI_LAB_25CSEAIML050
-   ```
+```bash
+# Clone the repository
+git clone https://github.com/subham-sahoo-07/AI_LAB_25CSEAIML050.git
 
-2. **Run an experiment:**
-   ```bash
-   python BFS.py
-   python DFS.PY
-   python hillalg.py
-   python a_star.py
-   python min_maxalg.py
-   python alpha_bita.py
-   python eight_queen.py
-   python water_jug.py
-   python tic_tac_toe.py
-   python Travel_space.py
-   ```
+# Navigate into the folder
+cd AI_LAB_25CSEAIML050
+
+# Run an experiment (example: BFS)
+python BFS.py
+```

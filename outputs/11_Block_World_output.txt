@@ -1,0 +1,38 @@
+=======================================================
+EXPERIMENT 11: Block World Problem
+File: Block_World.py
+=======================================================
+
+--- [Sample Input] ---
+Number of blocks: 3
+Block names: A B C
+Initial state: A on Table, B on A, C on Table
+Goal state: A on B, B on C, C on Table
+
+--- [Execution Output] ---
+===== BLOCK WORLD PROBLEM =====
+Enter number of blocks: 
+Enter block names:
+Block 1: Block 2: Block 3: 
+===== INITIAL STATE =====
+Enter the position of each block.
+Enter 'Table' if the block is on the table.
+Where is A initially? Where is B initially? Where is C initially? 
+===== GOAL STATE =====
+Enter the desired position of each block.
+Where should A be in the goal state? Where should B be in the goal state? Where should C be in the goal state? 
+Initial State:
+A -> Table
+B -> A
+C -> Table
+
+Goal State:
+A -> B
+C -> Table
+B -> C
+
+===== SOLUTION =====
+Step 1: Move B from A to C
+Step 2: Move A from Table to B
+
+Total moves: 2
