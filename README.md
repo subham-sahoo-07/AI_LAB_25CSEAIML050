@@ -3,6 +3,7 @@
 **Institution:** GIET University  
 **Department:** Computer Science & Engineering (Artificial Intelligence & Machine Learning)  
 **Semester:** 3rd Semester  
+**Section:** A  
 **Student Name:** Subham Sahoo (Subham Kumar Sahoo)  
 **Roll Number:** 25CSEAIML050  
 **Email:** [25cseaiml050.subhamkumarsahoo@giet.edu](mailto:25cseaiml050.subhamkumarsahoo@giet.edu)  
